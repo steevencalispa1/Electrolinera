@@ -1,0 +1,140 @@
+
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*INICIO DEL PRIMER CONTENEDOR*/
+.fr_div{
+    background-color: #161E21;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.izq{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+.slogan{
+    display: flex;
+    font-size: 28px;/*ayuda al tamaño de las letras*/  
+}
+.el_poder{
+    transform: scaleY(1.1); /*trasforma las letras de arriba abajo*/
+    display: inline-block;/*ayuda a q la trasformacion se realize correcta*/
+    line-height: 1.2;/*indica los espacios entre las lineas, es para que el texto se vea con mas espacio o mas unido*/
+}
+/*cambio de color de la letras*/
+.siente{
+    color: #00A8A8;
+}
+.car{
+    width: 46.5%;
+}
+
+/*DISEÑO DE LOS BOTONES Y SU CONTENIDO*/
+.btns{
+    margin-top: 20px;
+}
+
+.btn_1{
+    background: #00A8A8;
+    border-radius: 15px;/*ayuda a redondear las esquinas*/
+    height: 50px; /*ayuda con el alto*/
+    width: 170px;/*ayuda con el ancho*/
+}
+/*mini animacion de los botones*/
+.btn_1:hover{
+    cursor: pointer;
+    background: black;
+    border: 2px solid #00A8A8;
+}
+
+.info{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: large;
+    align-items: center;
+}
+
+.btn_2{
+    background: #00A8A8;
+    border-radius: 15px;
+    height: 50px;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+}
+/*mini animacion de los botones*/
+.btn_2:hover{
+    cursor: pointer;
+    background: black;
+    border: 2px solid #00A8A8;
+}
+.info_1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: large;
+}
+
+/*DISEÑO DEL CONTENER SECUNDARIO*/
+/*ajustes de la seccion del contenedor*/
+.contenedor_app{
+    display: flex ;
+    margin:  0 auto;
+    margin-top: 5%;
+}
+
+/*imagen*/
+.img_phone{
+    position: relative; /*ayuda a mover el div libremente*/
+    left: 30%;
+    top: 9%;
+}
+
+/*ajustes del titulo*/
+.titulo_app{
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scaleY(1.1);
+    font-size: 2.5rem;
+    line-height: 30px;              
+    position: absolute;      
+    top: 142%;                  
+    left: 45%; 
+}
+
+/*ajustes del parrafo*/
+.descripcion_app{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 30px;
+    width: 58%;              
+    position: absolute;      
+    top: 170%;                  
+    left: 39%;  
+}
+
+/*ajustes de los botones*/
+.stores{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    bottom: 13%;
+    left: 180%;
+}
+/*animaciion de cursor*/
+.stores:hover{
+    cursor: pointer;
+}
+

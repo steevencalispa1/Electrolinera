@@ -1,0 +1,59 @@
+bodY{
+    margin: 0;
+    height: 100%;
+}
+
+/*DISEÑO DEL CONTENEDOR DE SERVICIO*/
+.contenedor{
+    background: aquamarine;
+    border-top: 2px solid black; /*AGREGA UN BORDE EN LA PARTE SUPERIOR PARA QUE SE VEA BIEN*/
+    display: flex;
+    justify-content: space-between;/*SE USA PARA DISTIBUIR EL ESPACIO HORIZONTALMENTE */
+    width: 50opx;
+    height: 443px;
+}
+/*DISEÑO DEL TITULO*/
+.titulo{
+    font-size: 30px;/*tamaño de letra*/
+    transform: scaleY(1.2);/*usamos esto para deformar las letras de allto */
+    height: 30px;
+    position: relative;/*utilizamos para movernos liibremente*/
+    left: 30%;
+    top: 4%;
+}
+/*DISEÑO DE IMAGEN PROMOCIONAL*/
+.servi_img img{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    right: 149%;
+    top: 39%;
+    border: 3px solid #00A8A8;
+    border-radius: 15px;
+}
+
+.info{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+    width: 30%;              
+    position: absolute;      
+    top: 46%;                  
+    left: 35%; 
+}
+/*DISEÑO DE IMAGEN DEL MAPA*/
+.map_img img{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    right: 20%;
+    top: 39%;
+    border: 3px solid #00A8A8;
+    border-radius: 15px;
+}
+/*ANIMACION DE CURSOR AL PASAR POR ENSIMA DE LA IMAGEN*/
+.map_img img:hover{
+    cursor: pointer;
+}
